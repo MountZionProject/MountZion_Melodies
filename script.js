@@ -3,7 +3,7 @@ class CardProfile extends React.Component {constructor(...args) {super(...args);
     {
       index: 0,
       currentTime: '0:00',
-      musicList: [{ name: '1.Lift Up The Trumpet', author: 'Melodies From Mount Zion', img: 'Images/1.jpg', audio: 'Songs/Song_01.mp3', duration: '02:48' },
+      musicList: [{ name: '1.Lift Up The Trumpet', author: 'Melodies From Mount Zion', img: 'https://raw.githubusercontent.com/MountZionProject/MountZion_Melodies/main/Images/1.jpg', audio: 'Songs/Song_01.mp3', duration: '02:48' },
 { name: '2.Praise The Lord Together', author: 'Melodies From Mount Zion', img: 'Images/2.jpg', audio: 'Songs/Song_02.mp3', duration: '00:45' },
 { name: '3.Praise Him In The Morning', author: 'Melodies From Mount Zion', img: 'Images/3.jpg', audio: 'Songs/Song_03.mp3', duration: '01:28' },
 { name: '4.Hallelu Hallelu', author: 'Melodies From Mount Zion', img: 'Images/4.jpg', audio: 'Songs/Song_04.mp3', duration: '01:22' },
